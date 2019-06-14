@@ -1,9 +1,9 @@
-# SFDX App
+# Chart-JS-LWC-Examples
 
-## Dev, Build and Test
+## How to install
 
-## Resources
-
-## Description of Files and Directories
-
-## Issues
+Clone the repo
+`git clone https://github.com/Confirm4Crit/Chart-JS-LWC-Examples.git`
+Push to your desired sandboxes, or 
+`sfdx force:org:create -s -f config/project-scratch-def.json`
+`sfdx force:source:push`
