@@ -1,3 +1,15 @@
 {
-  "extends": ["@salesforce/eslint-config-lwc/recommended"]
+  "parser": "babel-eslint",
+  "plugins": ["@lwc/eslint-plugin-lwc"],
+  "extends": ["@salesforce/eslint-config-lwc/recommended", "eslint-config-airbnb/whitespace"],
+  "rules": {
+    "import/no-default-export": "off",
+    "import/no-unresolved":"off",
+    "require-unicode-regexp":"off",
+    "no-async-promise-executor":"off",
+    "no-misleading-character-class":"off",
+    "require-atomic-updates":"off",
+    "react/jsx-sort-prop-types":"off",
+    "lines-between-class-members":"off"
+  }
 }

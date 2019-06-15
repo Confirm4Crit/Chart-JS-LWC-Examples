@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@lwc/eslint-plugin-lwc": "^0.6.0",
+    "@salesforce/eslint-config-lwc": "^0.3.0",
+    "@salesforce/lwc-jest": "^0.4.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": ">= 23.0.0",
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "lint:lwc": "eslint **/lwc/**",
+    "test:unit": "lwc-jest",
+    "test:unit:watch": "lwc-jest --watch",
+    "test:unit:debug": "lwc-jest --debug"
+  }
+}
