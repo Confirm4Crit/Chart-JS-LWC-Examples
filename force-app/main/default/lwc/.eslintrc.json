@@ -1,7 +1,7 @@
 {
   "parser": "babel-eslint",
   "plugins": ["@lwc/eslint-plugin-lwc"],
-  "extends": ["@salesforce/eslint-config-lwc/recommended", "eslint-config-airbnb/whitespace"],
+  "extends": ["@salesforce/eslint-config-lwc/recommended", "eslint-config-airbnb/"],
   "rules": {
     "import/no-default-export": "off",
     "import/no-unresolved":"off",
