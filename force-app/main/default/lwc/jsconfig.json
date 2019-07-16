@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/chartJsPieExample": [
+                "chartJsPieExample/chartJsPieExample.js"
+            ],
             "c/libsChartjs": [
                 "libsChartjs/libsChartjs.js"
             ]

@@ -1,0 +1,12 @@
+<!--
+ - Created by miles on 6/23/2019.
+ -->
+
+<!-- ChartJS Pie Chart Example -->
+<template>
+  <c-libs-chartjs
+    soqlquery="select Type,Count(Id) Value from account group by type"
+    label="Type"
+    value="Value"
+  ></c-libs-chartjs>
+</template>
